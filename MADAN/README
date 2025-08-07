@@ -1,0 +1,15 @@
+Image A, Image B and Image C denote three satellite images in this paper.
+
+In Image A and Image B, we have four kinds of samples: background, oil palm, other vegetation and impervious.
+
+In Image C, we have three kinds of samples: background, oil palm and other vegetation.
+
+background_XXX.txt denotes the background samples in image XXX.jpg
+palm_XXX.txt denotes the oil palm samples in image XXX.jpg
+other_vegetation_XXX.txt denotes the other vegetation samples in image XXX.jpg
+impervious_XXX.txt denotes the impervious samples in image XXX.jpg
+
+The four columns of each text file denote the (x,y) coordinates of the left top and the right bottom of each bounding box.
+
+
+ORIGINAL WORK https://github.com/rs-dl/MADAN
